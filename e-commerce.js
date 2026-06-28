@@ -39,11 +39,6 @@ if (form && password && passwordError) {
         }
     } );
 
-  document.getElementById("loginForm").addEventListener("submit", function(e){
-        e.preventDefault();
-        if (this.checkValidity()){
-            window.location.href = "index.html";
-        }
-    });
+ 
 
     
